@@ -3,7 +3,6 @@ import './sass/index.scss';
 window.addEventListener('load', ready);
 
 function ready() {
-	const sliderControl = document.getElementById('sliderControl');
 	const innerWrapper = document.querySelector('.slider-inner');
 	const wrapper = document.querySelector('.slider-wrapper');
 
@@ -30,7 +29,7 @@ function ready() {
 		wrapper.addEventListener('pointermove', drugSlider);
 	}
 
-	const removeDrugListener = function(e) {
+	const removeDrugListener = function() {
 		let transform;
 
 		if ((new Date() - startTime) < TIME_TO_SMALL_ACTION && percent > PERCENT_TO_ACTION_SLIDE) {
