@@ -3,11 +3,11 @@ import './sass/index.scss';
 window.addEventListener('load', ready);
 
 function ready() {
-	console.log('TEST GPG')
+
 }
 
 function slider() {
-	console.log(111)
+
 }
 
 function test() {
