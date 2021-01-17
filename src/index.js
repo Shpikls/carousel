@@ -10,7 +10,7 @@ function slider() {
 
 }
 
-function test() {
+function oldCode() {
 	const innerWrapper = document.querySelector('.slider-inner');
 	const wrapper = document.querySelector('.slider-wrapper');
 
