@@ -3,6 +3,14 @@ import './sass/index.scss';
 window.addEventListener('load', ready);
 
 function ready() {
+
+}
+
+function slider() {
+
+}
+
+function test() {
 	const innerWrapper = document.querySelector('.slider-inner');
 	const wrapper = document.querySelector('.slider-wrapper');
 
