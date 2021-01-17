@@ -7,7 +7,7 @@ function ready() {
 }
 
 function slider() {
-
+	console.log(111)
 }
 
 function test() {
