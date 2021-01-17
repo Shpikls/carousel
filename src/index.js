@@ -3,11 +3,7 @@ import './sass/index.scss';
 window.addEventListener('load', ready);
 
 function ready() {
- //12
-}
-
-function slider() {
-
+	oldCode();
 }
 
 function oldCode() {
